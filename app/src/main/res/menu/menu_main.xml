@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_guide" android:title="IC Food Guide"
+        android:orderInCategory="80" app:showAsAction="always">
+        <!-- submenu -->
+        <menu>
+            <item android:id="@+id/candy" android:title="Candy" app:showAsAction="always"/>
+            <item android:id="@+id/coffee"  android:title="Coffee" app:showAsAction="always"/>
+            <item android:id="@+id/dairy" android:title="Dairy" app:showAsAction="always"/>
+            <item android:id="@+id/nuts" android:title="Nuts" app:showAsAction="always"/>
+            <item android:id="@+id/pasta" android:title="Pasta" app:showAsAction="always"/>
+            <item android:id="@+id/rice" android:title="Rice" app:showAsAction="always"/>
+            <item android:id="@+id/vegetables" android:title="Vegetables" app:showAsAction="always"/>
+
+        </menu>
+    </item>
+</menu>
