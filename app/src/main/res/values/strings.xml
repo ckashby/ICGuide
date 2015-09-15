@@ -7,5 +7,6 @@
     <string name="title_activity_dairy">Dairy</string>
     <string name="title_activity_candy">Candy</string>
     <string name="title_activity_coffee">Coffee</string>
+    <string name="footer_copyright">Copyright 1995 - 2015 IC-Network.com</string>
     <string name="main_menu_welcome_text">Welcome to the 2015 edition of the IC-Network Food Guide. Research has confirmed that foods and beverages high in acid and caffeine can worsen bladder and prostate symptoms. Something as simple as a daily cup of coffee can provoke serious pain and discomfort. Diet modification is a simple, affordable and effective strategy that may help!</string>
 </resources>

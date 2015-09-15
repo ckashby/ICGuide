@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IC Guide</string>
+
+    <string name="hello_world">Bonjour Monde!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ic_network_food_guide_text"></string>
+    <string name="title_activity_dairy"></string>
+    <string name="title_activity_candy"></string>
+    <string name="title_activity_coffee"></string>
+    <string name="main_menu_welcome_text">Welcome to the 2015 edition.</string>
+</resources>

@@ -9,6 +9,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+
 public class CandyActivity extends AppCompatActivity {
     ListView lvCandy;
     ArrayList<String> alCandy;
@@ -27,13 +28,24 @@ public class CandyActivity extends AppCompatActivity {
         );
         lvCandy.setAdapter(aaCandy);
         aaCandy.add("Butterscotch");
-        aaCandy.add("Carob,");
-        aaCandy.add("Caramel,");
+        aaCandy.add("Carob");
+        aaCandy.add("Caramel");
         aaCandy.add("Divinity");
         aaCandy.add("Mint");
 
 
     }
+//  private static final String MYKEY = "MYKEY";
+//    @Override
+//    protected void onSavedInstanceState(Bundle outState) {
+//        super.onSaveInstanceState(outState);
+//        try {
+//            outState.getString(MYKEY, "some value");
+//        } catch (Exception e){
+//            e.printStackTrace();
+//        }
+//    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
